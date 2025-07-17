@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/pathTracing.dir/link.d CMakeFiles/pathTracing.dir/main.cpp.o -o pathTracing  -Wl,-rpath,/home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL ../vendor/SDL/libSDL3.so.0.3.0

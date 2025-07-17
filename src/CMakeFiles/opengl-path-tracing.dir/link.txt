@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/opengl-path-tracing.dir/link.d "CMakeFiles/opengl-path-tracing.dir/main.cpp.o" -o opengl-path-tracing  -lvendor
