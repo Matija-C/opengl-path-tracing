@@ -15,24 +15,21 @@ void Camera::updateDirections(){
     forward = glm::normalize(newForward);
     right = glm::normalize(glm::cross(forward, glm::vec3(0.0, 1.0, 0.0)));
     up = glm::normalize(glm::cross(right, forward));
-    
-    std::cout << forward.x << " " << forward.y << " " << forward.z <<
-    " " << yaw << " " << pitch << std::endl;
 }
 void Camera::updateOrientation(float deltaX, float deltaY){
-    yaw += deltaX * 0.01f;
-    pitch -= deltaY * 0.01f;
+    yaw -= deltaX * 0.01f;
+    pitch += deltaY * 0.01f;
 
-    if(pitch >  PI / 2) pitch =  PI / 2;
-    if(pitch < -PI / 2) pitch = -PI / 2;
+    if(pitch >  glm::radians(89.0f)) pitch =  glm::radians(89.0f);
+    if(pitch < -glm::radians(89.0f)) pitch = -glm::radians(89.0f);
 
     updateDirections();
 }
 void Camera::moveForward(float delta){
-    position += forward * delta;
+    position -= forward * delta;
 }
 void Camera::moveBackward(float delta){
-    position -= forward * delta;
+    position += forward * delta;
 }
 void Camera::moveLeft(float delta){
     position -= right * delta;

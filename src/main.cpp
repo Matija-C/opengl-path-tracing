@@ -1,5 +1,6 @@
-#include <iostream>
+#include "engine.h"
 
 int main(){
-  std::cout << "Hello, world!" << std::endl;
+  Engine engine;
+  engine.run();
 }

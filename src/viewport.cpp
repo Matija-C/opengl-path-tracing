@@ -2,6 +2,9 @@
 #include "viewport.h"
 #include "shader.h"
 
+Viewport::Viewport(unsigned int w, unsigned int h)
+        : width(w), height(h) {}
+
 void Viewport::initialize(){
     vertices = {
          1.0f,  1.0f, 0.0f,
@@ -20,6 +23,8 @@ void Viewport::initialize(){
     glGenVertexArrays(1, &VAO);
     glGenBuffers(1, &VBO);
     glGenBuffers(1, &EBO);
+
+    createSSBO();
     
     glBindVertexArray(VAO);
     
@@ -32,8 +37,39 @@ void Viewport::initialize(){
     glEnableVertexAttribArray(0);
 }
 
+void Viewport::createSSBO(){
+    if(accumulationSSBO != 0){
+        glDeleteBuffers(1, &accumulationSSBO);
+    }
+    
+    glGenBuffers(1, &accumulationSSBO);
+    glBindBuffer(GL_SHADER_STORAGE_BUFFER, accumulationSSBO);
+    size_t bufferSize = width * height * sizeof(float) * 4;
+    std::vector<float> initialData(width * height * 4, 0.0f);
+    glBufferData(GL_SHADER_STORAGE_BUFFER, bufferSize, initialData.data(), GL_DYNAMIC_COPY);
+    glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
+}
+
+void Viewport::updateResolution(unsigned int w, unsigned int h){
+    width = w;
+    height = h;
+
+    createSSBO();
+}
+
+void Viewport::resetAccumulation(){
+    glBindBuffer(GL_SHADER_STORAGE_BUFFER, accumulationSSBO);
+    std::vector<float> black(width * height * 4, 0.0);
+    glBufferSubData(GL_SHADER_STORAGE_BUFFER, 0, width * height * sizeof(float) * 4, black.data());
+    glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
+}
+
 void Viewport::draw(){
     shader->use();
+    shader->setInt("viewportWidth", width);
+    shader->setInt("viewportHeight", height);
+
+    glBindBufferBase(GL_SHADER_STORAGE_BUFFER, 0, accumulationSSBO);
     glBindVertexArray(VAO);
     glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 }

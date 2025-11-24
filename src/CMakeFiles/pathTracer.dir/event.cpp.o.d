@@ -1,0 +1,364 @@
+src/CMakeFiles/pathTracer.dir/event.cpp.o: \
+ /home/ceki/Documents/Projects/opengl-path-tracing/src/event.cpp \
+ /usr/include/stdc-predef.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/event.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_stdinc.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_platform_defines.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
+ /usr/include/features.h /usr/include/features-time64.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/time64.h /usr/include/bits/wchar.h \
+ /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h /usr/include/string.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stddef.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/strings.h /usr/include/wchar.h /usr/include/bits/floatn.h \
+ /usr/include/bits/floatn-common.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_begin_code.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_close_code.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_assert.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_asyncio.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_atomic.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_audio.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_endian.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/uintn-identity.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_error.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_mutex.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_thread.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_properties.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_iostream.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_bits.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_blendmode.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_camera.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_pixels.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_surface.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_rect.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_clipboard.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_cpuinfo.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_dialog.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_video.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_events.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_gamepad.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_guid.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_joystick.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_power.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_sensor.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_keyboard.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_keycode.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_scancode.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_mouse.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_pen.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_touch.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_filesystem.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_gpu.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_haptic.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_hidapi.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_hints.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_init.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_loadso.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_locale.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_log.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_messagebox.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_metal.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_misc.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_platform.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_process.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_render.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_storage.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_system.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_time.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_timer.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_tray.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_version.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/include/SDL3/SDL_oldnames.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/camera.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/glm.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/_fixes.hpp \
+ /usr/include/c++/15.1.1/cmath \
+ /usr/include/c++/15.1.1/bits/requires_hosted.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+ /usr/include/c++/15.1.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
+ /usr/include/c++/15.1.1/pstl/pstl_config.h \
+ /usr/include/c++/15.1.1/bits/cpp_type_traits.h \
+ /usr/include/c++/15.1.1/bits/version.h \
+ /usr/include/c++/15.1.1/type_traits \
+ /usr/include/c++/15.1.1/ext/type_traits.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h /usr/include/bits/mathcalls-macros.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/c++/15.1.1/bits/std_abs.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
+ /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
+ /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h \
+ /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
+ /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/c++/15.1.1/bits/specfun.h \
+ /usr/include/c++/15.1.1/bits/stl_algobase.h \
+ /usr/include/c++/15.1.1/bits/functexcept.h \
+ /usr/include/c++/15.1.1/bits/exception_defines.h \
+ /usr/include/c++/15.1.1/ext/numeric_traits.h \
+ /usr/include/c++/15.1.1/bits/stl_pair.h \
+ /usr/include/c++/15.1.1/bits/move.h \
+ /usr/include/c++/15.1.1/bits/utility.h /usr/include/c++/15.1.1/compare \
+ /usr/include/c++/15.1.1/concepts \
+ /usr/include/c++/15.1.1/bits/stl_iterator_base_types.h \
+ /usr/include/c++/15.1.1/bits/iterator_concepts.h \
+ /usr/include/c++/15.1.1/bits/ptr_traits.h \
+ /usr/include/c++/15.1.1/bits/ranges_cmp.h \
+ /usr/include/c++/15.1.1/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/15.1.1/bits/concept_check.h \
+ /usr/include/c++/15.1.1/debug/assertions.h \
+ /usr/include/c++/15.1.1/bits/stl_iterator.h /usr/include/c++/15.1.1/new \
+ /usr/include/c++/15.1.1/bits/exception.h \
+ /usr/include/c++/15.1.1/bits/stl_construct.h \
+ /usr/include/c++/15.1.1/debug/debug.h \
+ /usr/include/c++/15.1.1/bits/predefined_ops.h \
+ /usr/include/c++/15.1.1/bit /usr/include/c++/15.1.1/limits \
+ /usr/include/c++/15.1.1/tr1/gamma.tcc \
+ /usr/include/c++/15.1.1/tr1/special_function_util.h \
+ /usr/include/c++/15.1.1/tr1/bessel_function.tcc \
+ /usr/include/c++/15.1.1/tr1/beta_function.tcc \
+ /usr/include/c++/15.1.1/tr1/ell_integral.tcc \
+ /usr/include/c++/15.1.1/tr1/exp_integral.tcc \
+ /usr/include/c++/15.1.1/tr1/hypergeometric.tcc \
+ /usr/include/c++/15.1.1/tr1/legendre_function.tcc \
+ /usr/include/c++/15.1.1/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/15.1.1/tr1/poly_hermite.tcc \
+ /usr/include/c++/15.1.1/tr1/poly_laguerre.tcc \
+ /usr/include/c++/15.1.1/tr1/riemann_zeta.tcc \
+ /usr/include/c++/15.1.1/climits \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/syslimits.h \
+ /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+ /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+ /usr/include/bits/pthread_stack_min-dynamic.h \
+ /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
+ /usr/include/bits/uio_lim.h /usr/include/c++/15.1.1/cfloat \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/float.h \
+ /usr/include/c++/15.1.1/cassert /usr/include/assert.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/fwd.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_int.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/setup.hpp \
+ /usr/include/c++/15.1.1/cstddef \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../simd/platform.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/emmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mm_malloc.h \
+ /usr/include/c++/15.1.1/stdlib.h /usr/include/c++/15.1.1/cstdlib \
+ /usr/include/c++/15.1.1/cstdint \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_float.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/precision.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_mat.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/vec2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec2.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/vec3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec3.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/vec4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec4.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_vec4_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/mat2x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_mat2x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_mat2x2.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_matrix.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat2x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat2x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat2x3.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat2x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat2x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat2x4.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat3x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x2.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat3x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x3.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat3x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat3x4.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat4x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x2.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x2.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat4x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x3.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x3.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../mat4x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x4.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x4.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_mat4x4_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_matrix.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../geometric.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_geometric.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_geometric.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_exponential.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_vec1.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/type_vec1.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_exponential.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_vector_relational.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_vector_relational.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_vector_relational_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/_vectorize.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_exponential_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/../simd/exponential.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_common.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/_fixes.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_common.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_common_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/../simd/common.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/immintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/x86gprintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/ia32intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/adxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/bmiintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/bmi2intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cetintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cldemoteintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/clflushoptintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/clwbintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/clzerointrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/cmpccxaddintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/enqcmdintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/fxsrintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/lzcntintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/lwpintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/movdirintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mwaitintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/mwaitxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/pconfigintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/popcntintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/pkuintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchiintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/raointintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/rdseedintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/rtmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/serializeintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/sgxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/tbmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/tsxldtrkintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/uintrintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/waitpkgintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/wbnoinvdintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xsaveintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xsavecintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xsaveoptintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xsavesintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/xtestintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/hresetintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/usermsrintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/pmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/tmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/smmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/wmmintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxvnniintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxifmaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxvnniint8intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxvnniint16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx2intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512cdintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bwintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512dqintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vlbwintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vldqintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512ifmaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512ifmavlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmiintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmivlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vpopcntdqintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmi2intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vbmi2vlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vnniintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vnnivlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vpopcntdqvlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bitalgintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bitalgvlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vp2intersectintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512vp2intersectvlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fp16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512fp16vlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/shaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/sm3intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/sha512intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/sm4intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/fmaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/f16cintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/gfniintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/vaesintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/vpclmulqdqintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bf16vlintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx512bf16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avxneconvertintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxtileintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxint8intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxbf16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxcomplexintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxavx512intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxtf32intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxtransposeintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxfp8intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/prfchwintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/keylockerintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxfp16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2mediaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512mediaintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2convertintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512convertintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2bf16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512bf16intrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2satcvtintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512satcvtintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2minmaxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2-512minmaxintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/avx10_2copyintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/movrsintrin.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/amxmovrsintrin.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/func_geometric_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../detail/../simd/geometric.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_matrix_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../simd/matrix.h \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/trigonometric.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_trigonometric.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_trigonometric.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_trigonometric_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/exponential.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/common.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/packing.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_packing.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_packing.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_half.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/type_half.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_packing_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/matrix.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/vector_relational.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/integer.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_integer.hpp \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_integer.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/func_integer_simd.inl \
+ /home/ceki/Documents/Projects/opengl-path-tracing/include/glm/detail/../simd/integer.h

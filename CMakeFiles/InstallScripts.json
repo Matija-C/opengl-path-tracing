@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/ceki/Documents/Projects/opengl-path-tracing/cmake_install.cmake",
+		"/home/ceki/Documents/Projects/opengl-path-tracing/vendor/cmake_install.cmake",
+		"/home/ceki/Documents/Projects/opengl-path-tracing/vendor/SDL/cmake_install.cmake",
+		"/home/ceki/Documents/Projects/opengl-path-tracing/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
