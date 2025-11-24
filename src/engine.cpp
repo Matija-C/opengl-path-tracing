@@ -66,7 +66,6 @@ void Engine::run(){
             camera.moveForward(cameraSpeed * deltaTime);
             viewport.resetAccumulation();
             sample = 1;
-            std::cout << "w" << std::endl;
         }
         if(keyboardState[SDL_SCANCODE_S]){
             camera.moveBackward(cameraSpeed * deltaTime);
@@ -113,8 +112,6 @@ void Engine::run(){
             viewport.resetAccumulation();
             sample = 1;
         }
-
-        std::cout << deltaTime << "\n";
 
         viewport.shader->setVec3("cameraPosition", camera.position);
         viewport.shader->setFloat("yaw", camera.yaw);
